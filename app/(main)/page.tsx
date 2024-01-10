@@ -11,7 +11,7 @@ export default function Home() {
             Next Auth V5</a> by <a className="text-blue-400 hover:underline" href="https://github.com/iEarlG" target="_blank">EARL</a>.
         </p>
         <div>
-          <LoginButton mode="modal">
+          <LoginButton>
             <Button variant="secondary" size="lg">
               Sign in
             </Button>
