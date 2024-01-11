@@ -1,7 +1,8 @@
+import { LoginForm } from "@/components/auth/ux/LoginForm";
 
 const LoginPage = () => {
     return ( 
-        <div>Login page</div>
+        <LoginForm />
     );
 }
  
