@@ -54,7 +54,8 @@ const config = {
         },
       },
       backgroundImage: {
-        "gradient": "linear-gradient(to right, #868f96 0%, #596164 100%)"
+        "gradient": "linear-gradient(to right, #44a08d, #093637)",
+        "signInGradient": "linear-gradient(to right, #093028, #237a57)"
       },
       borderRadius: {
         lg: "var(--radius)",
