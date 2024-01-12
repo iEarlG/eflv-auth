@@ -25,7 +25,9 @@ export const LoginForm = () => {
             backButtonHref="/auth/register"
             showSocial
         >
-            LoginForm
+            <Form>
+                
+            </Form>
         </CardWrapper>
     )
 };
