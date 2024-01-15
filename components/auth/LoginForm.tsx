@@ -25,8 +25,10 @@ export const LoginForm = () => {
             backButtonHref="/auth/register"
             showSocial
         >
-            <Form>
-                
+            <Form {...form}>
+                <form onSubmit={form.handleSubmit(() => {})}>
+                    
+                </form>
             </Form>
         </CardWrapper>
     )
