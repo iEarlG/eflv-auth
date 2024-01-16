@@ -6,10 +6,11 @@ import * as z from "zod";
 
 import { LoginSchema } from "@/schemas";
 
-import { CardWrapper } from "@/components/auth/ux/CardWrapper";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
+
+import { CardWrapper } from "@/components/ux/CardWrapper";
 
 export const LoginForm = () => {
     const form = useForm<z.infer<typeof LoginSchema>>({
